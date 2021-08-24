@@ -1,58 +1,59 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://unsuitable001.github.io/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Soumyadip Mondal',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Soumyadip Mondal | App/Backend Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Google Summer of Code 2021 @ Dart (Google) | GDSC Lead | Learning AppDev & Backend.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@unsuitable001`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/unsuitable001`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/unsuitable001/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hi 👋! I'm Soumyadip. I'm a Computer Science and Engineering undergrad. I love to develop solutions using my keyboard. Currently exploring the world of App Development and Backend Engineering. I do open-source and teach people in between. Slowly building up DS-Algo skills to help the humanity. p.s. I ♥️ Music.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'package:cronet',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A HTTP library for Dart Native platfroms (Flutter + CLI) with QUIC/HTTP3 support and at least twice faster than the standard library.',
+        link: 'https://github.com/google/cronet.dart',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'BitViz',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A bit manipulation visualizer.',
+        link: 'https://unsuitable001.github.io/BitViz',
       },
       {
-        name: 'Another Cool Project',
+        name: 'AttnSheet',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'An attendence management app with cloud sync (Google Drive) and automated report generation.',
+        link: 'https://github.com/unsuitable001/AttnSheet',
+      },
+      {
+        name: 'PaperPlane',
+        description:
+          'A minimal peer to peer video/audio chatting application based on WebRTC.',
+        link: 'https://drive.google.com/file/d/1XCZmBAulqA2TUt-mdTdozmu8WkVD34P7/view',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Dart Team (Google)',
+        description: 'Student Developer (Google Summer of Code), May 2021 - August 2021',
+        link: 'https://summerofcode.withgoogle.com/projects/#4757095741652992',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Sister Nivedita University',
+        description: 'Contest Platform Developer, May 2020',
+        link: 'https://snuniv.ac.in',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +61,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'C/C++, Dart, Python, JavaScript, Flutter, Flask, VueJS, TailwindCSS, Foreign Function Interface',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, OracleSQL, Firestore, Real-time Database (Firebase)',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Firebase, CI / CD, Microservices, API design',
       },
     ],
   },
